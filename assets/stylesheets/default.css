@@ -3325,10 +3325,11 @@ p {
 /* =Layout Specific
 -------------------------------------------------------------- */
 .default {
-  background-color: #120755;
-  background-image: url("../images/default/hero/hero-bg.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
+  background-color: #010101;
+  background-image: url("../images/default/hero/hero-bg3.png");
+  background-position: center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
   color: #fafafa;
 }
 .default hr {
