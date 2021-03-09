@@ -22,6 +22,35 @@ Author URI: http://www.AetherThemes.com
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
+
+ /* Skills Section Start */
+
+ 
+#skills-section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#skills-section li {
+  float: left;
+  list-style-type: none;
+  margin: 1em 2em;
+  text-align: center;
+}
+#skills-section span {
+  font-family: 'roboto', 'Helvetica';
+  font-weight: bold;
+  display: block;
+}
+#skills-section img {
+  height: 70px;
+}
+#skills-section * {
+  padding: 0;
+}
+ /* Skills Section End */
 .row {
   max-width: 75rem;
   margin-right: auto;
@@ -3201,6 +3230,8 @@ h2 {
 
 .styled-h3,
 h3 {
+  display: flex;
+  justify-content: center;
   font-family: "Playfair Display", "Times New Roman", Times, serif;
   font-size: 2.5rem;
   line-height: 1.2;
