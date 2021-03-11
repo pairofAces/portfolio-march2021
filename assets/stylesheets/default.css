@@ -3405,7 +3405,7 @@ p {
 }
 .hero-header .-logo {
   float: left;
-  width: 50%;
+  width: 0%;
 }
 @media screen and (max-width: 60em) {
   .hero-header .-logo {
