@@ -3688,6 +3688,7 @@ p {
     margin-top: 0.625rem;
   }
 }
+
 .gallery-cta {
   width: 100%;
   float: left;
@@ -3731,6 +3732,8 @@ p {
 }
 
 /* Projects Gallery  Start */
+
+/* 
 .tm-testimonials-content {
   position: relative!important;
   z-index: 100!important;
@@ -3773,23 +3776,12 @@ p {
 .tm-section-pad-top {
   padding-top: 80px!important;
   padding-bottom: 80px!important;
-  /* background-image: url(../img/QueensCollege.jpeg); */
 }
 
 #testimonials {
   color: white!important;
-  /* background-image: url(../img/infinite-loop-02.jpg); */
-  /* background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 100%; */
   position: relative!important;
 }
-
-/* @media (max-width: 991px) {
-  #testimonials {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
-  }
-} */
 
 .tm-testimonials-content {
   position: relative!important;
@@ -3805,7 +3797,6 @@ p {
 .tm-down-arrow {
   	color: #FFF!important;
     cursor: pointer!important;
-    /* background: #357!important; */
     padding: 15px 40px!important;
     transition: all 0.3s ease!important;
 }
@@ -3885,7 +3876,8 @@ p {
 
 .slick-dots li button:before {
   font-size: 18px!important;
-}
+} */
+
 /* Projects Gallery  End */
 
 
