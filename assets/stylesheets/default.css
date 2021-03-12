@@ -3805,7 +3805,7 @@ p {
 .tm-down-arrow {
   	color: #FFF!important;
     cursor: pointer!important;
-    background: #357!important;
+    /* background: #357!important; */
     padding: 15px 40px!important;
     transition: all 0.3s ease!important;
 }
