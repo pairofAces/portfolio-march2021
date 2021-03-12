@@ -3731,24 +3731,95 @@ p {
 }
 
 /* Projects Gallery  Start */
+.linx {
+  color: white!important;
+  display: block;
+  text-align: center;
+}
+
+.tm-down-arrow {
+  	color: #FFF;
+    cursor: pointer;
+    background: #357;
+    padding: 15px 40px;
+    transition: all 0.3s ease;
+}
+
+.tm-down-arrow:hover,
+.tm-down-arrow:focus {
+  color: #FFF;
+  background: #37A;
+  padding: 20px 50px;
+}
+
+.tm-testimonials-carousel {
+  max-width: 1050px!important;
+  margin: 0 auto!important;
+}
 
 .tm-testimonial-item {
-  max-width: 300px;
-  margin-left: 35px;
-  margin-right: 35px;
+  max-width: 300px!important;
+  margin-left: 35px!important;
+  margin-right: 35px!important;
 }
 
 .tm-testimonial-item img {
-  display: table;
-  height: 100%;
-  width: 100%;
-  padding-bottom: 10px;
+  display: table!important;
+  height: 100%!important;
+  width: 100%!important;
+  padding-bottom: 10px!important;
 }
 
 .tm-testimonial-item figcaption {
-  text-align: right;
-  font-style: italic;
-  font-size: 1.1rem;
+  text-align: right!important;
+  font-style: italic!important;
+  font-size: 1.1rem!important;
+}
+
+.tm-section-desc {
+  max-width: 650px!important;
+  width: 100%!important;
+  font-size: 0.9rem!important;
+}
+
+.tm-gallery-container {
+  padding-top: 70px!important;
+  padding-bottom: 120px!important;
+}
+
+.tm-gallery-item {
+  margin: 0 15px!important;
+}
+
+.slick-dots {
+  bottom: -65px!important;
+}
+
+.slick-dots li {
+  margin: 0 13px!important;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before,
+.slick-dots li.slick-active button:before {
+  opacity: 1!important;
+  color: #3ba0dd!important;
+}
+
+.tm-testimonials-carousel .slick-dots li button:before {
+  color: white!important;
+  opacity: 0.5;
+}
+
+.tm-testimonials-carousel .slick-dots li button:hover:before,
+.tm-testimonials-carousel .slick-dots li button:focus:before,
+.tm-testimonials-carousel .slick-dots li.slick-active button:before {
+  color: white;
+  opacity: 1;
+}
+
+.slick-dots li button:before {
+  font-size: 18px;
 }
 /* Projects Gallery  End */
 
