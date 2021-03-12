@@ -3729,6 +3729,30 @@ p {
     margin-bottom: 0.625rem;
   }
 }
+
+/* Projects Gallery  Start */
+
+.tm-testimonial-item {
+  max-width: 300px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.tm-testimonial-item img {
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.tm-testimonial-item figcaption {
+  text-align: right;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+/* Projects Gallery  End */
+
+
 .gallery-glow {
   position: absolute;
   z-index: -1;
