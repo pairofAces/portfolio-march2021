@@ -3659,7 +3659,7 @@ p {
 }
 .gallery-grid .-image a {
   display: block;
-  box-shadow: 0px 20px 20px 20px rgba(7, 2, 38, 0.25);
+  /* box-shadow: 0px 20px 20px 20px rgba(7, 2, 38, 0.25); */
   transition: box-shadow 0.2s linear, transform 0.2s linear;
 }
 .gallery-grid .-image a:hover {
@@ -3731,6 +3731,16 @@ p {
   }
 }
 
+/* Projects Gallary grid view css - Start */
+.linx {
+  color: white!important;
+  display: block!important;
+  text-align: center!important;
+}
+
+
+/* Projects gallary grid view End */
+
 /* Projects Gallery  Start */
 
 /* 
@@ -3786,12 +3796,6 @@ p {
 .tm-testimonials-content {
   position: relative!important;
   z-index: 100!important;
-}
-
-.linx {
-  color: white!important;
-  display: block!important;
-  text-align: center!important;
 }
 
 .tm-down-arrow {
